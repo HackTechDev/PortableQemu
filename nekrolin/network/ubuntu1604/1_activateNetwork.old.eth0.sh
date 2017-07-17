@@ -4,6 +4,10 @@
 # Network packages:
 # apt-get install uml-utilities
 # apt-get install bridge-utils
+#
+# Open: /etc/resolv.conf
+# Add: nameserver 8.8.8.8
+#
 
 sudo tunctl -u util01 -t tap0 
 sleep 2
